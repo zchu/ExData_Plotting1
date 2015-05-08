@@ -22,11 +22,3 @@ with(studydata, lines(Time, Sub_metering_3, col = "blue"))
 legend("topright", lwd = 1, col = c("black", "blue", "red"), legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 dev.off()
-
-# 
-# plot(studydata$Time, studydata$Sub_metering_2,
-#      ylab = "Energy sub metering",
-#      xlab = "",
-#      type = "l",
-#      col = "red"
-# )

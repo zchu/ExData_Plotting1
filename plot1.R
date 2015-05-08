@@ -18,5 +18,4 @@ hist(studydata$Global_active_power,
     breaks = 16
 )
 
-#dev.copy(png, file = "plot1.png") ## Copy my plot to a PNG file
 dev.off() ## Don't forget to close the PNG device!

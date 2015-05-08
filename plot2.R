@@ -21,5 +21,5 @@ plot(studydata$Time, studydata$Global_active_power,
 
 
 
-#dev.copy(png, file = "plot3.png") ## Copy my plot to a PNG file
+
 dev.off() ## Don't forget to close the PNG device!
